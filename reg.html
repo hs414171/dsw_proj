@@ -134,7 +134,7 @@
 				const password = document.getElementById('password').value
 				const email = document.getElementById('email').value
 
-				const result = await fetch('https://dswproj.herokuapp.com/api/user/reg_user', {
+				const result = await fetch('http://localhost:3000/api/user/reg_user', {
 					method: 'POST',
 					headers: {
 						'Content-Type': 'application/json'
